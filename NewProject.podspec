@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "KLCPopup"
+  s.name         = "NewProject"
   s.version      = "1.1"
   s.summary      = "KLCPopup is a simple and flexible iOS class for presenting any custom view as a popup"
   s.homepage     = "https://github.com/abhinavmandloi/NewProject"
