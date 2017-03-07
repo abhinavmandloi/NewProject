@@ -17,7 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self callViewMethod];
 }
+
+- (void)callViewMethod
+{
+    NSLog(@"CALL VIEW METHOD");
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

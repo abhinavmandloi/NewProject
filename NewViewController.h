@@ -10,4 +10,6 @@
 
 @interface NewViewController : UIViewController
 
+- (void)callViewMethod;
+
 @end

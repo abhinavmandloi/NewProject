@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "NewProject"
   s.version      = "0.0.1"
-  s.summary      = "RWPickFlavor lets a user select an ice cream flavor."
+  s.summary      = "lets a user select an ice cream flavor."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC ‘Replace this URL with your own Github page's URL Replace this URL with your own Github page's URL.’
+  s.description  = <<-DESC
                    DESC
 
   s.homepage     = "https://github.com/abhinavmandloi/NewProject.git"

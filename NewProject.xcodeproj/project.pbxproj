@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150641951E6ED45D002310CA /* NewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 150641931E6ED45D002310CA /* NewViewController.h */; };
+		150641961E6ED45D002310CA /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150641941E6ED45D002310CA /* NewViewController.m */; };
 		15EB541C1E6EC80F00364CC3 /* NewProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EB541B1E6EC80F00364CC3 /* NewProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15EB54231E6EC80F00364CC3 /* NewProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EB54181E6EC80F00364CC3 /* NewProject.framework */; };
 		15EB54281E6EC80F00364CC3 /* NewProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EB54271E6EC80F00364CC3 /* NewProjectTests.m */; };
@@ -23,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		150641931E6ED45D002310CA /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		150641941E6ED45D002310CA /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 		15EB54181E6EC80F00364CC3 /* NewProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EB541B1E6EC80F00364CC3 /* NewProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewProject.h; sourceTree = "<group>"; };
 		15EB541D1E6EC80F00364CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,9 +54,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150641921E6ED43B002310CA /* New */ = {
+			isa = PBXGroup;
+			children = (
+				150641931E6ED45D002310CA /* NewViewController.h */,
+				150641941E6ED45D002310CA /* NewViewController.m */,
+			);
+			name = New;
+			sourceTree = "<group>";
+		};
 		15EB540E1E6EC80F00364CC3 = {
 			isa = PBXGroup;
 			children = (
+				150641921E6ED43B002310CA /* New */,
 				15EB541A1E6EC80F00364CC3 /* NewProject */,
 				15EB54261E6EC80F00364CC3 /* NewProjectTests */,
 				15EB54191E6EC80F00364CC3 /* Products */,
@@ -93,6 +107,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150641951E6ED45D002310CA /* NewViewController.h in Headers */,
 				15EB541C1E6EC80F00364CC3 /* NewProject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150641961E6ED45D002310CA /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +390,7 @@
 				15EB542E1E6EC80F00364CC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15EB542F1E6EC80F00364CC3 /* Build configuration list for PBXNativeTarget "NewProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +399,7 @@
 				15EB54311E6EC80F00364CC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
