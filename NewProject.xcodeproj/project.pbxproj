@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		156EA4BB1E6F07DC0049F2B8 /* PCCCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 156EA4B91E6F07DC0049F2B8 /* PCCCViewController.h */; };
-		156EA4BC1E6F07DC0049F2B8 /* PCCCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156EA4BA1E6F07DC0049F2B8 /* PCCCViewController.m */; };
+		152EF0801E6F0A4F000DF244 /* ConfigurationBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 152EF07E1E6F0A4F000DF244 /* ConfigurationBundle.h */; };
+		152EF0811E6F0A4F000DF244 /* ConfigurationBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 152EF07F1E6F0A4F000DF244 /* ConfigurationBundle.m */; };
 		15BDBB211E6F05D600C89306 /* NewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BDBB1F1E6F05D600C89306 /* NewViewController.h */; };
 		15BDBB221E6F05D600C89306 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BDBB201E6F05D600C89306 /* NewViewController.m */; };
 		15EB541C1E6EC80F00364CC3 /* NewProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EB541B1E6EC80F00364CC3 /* NewProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,8 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		156EA4B91E6F07DC0049F2B8 /* PCCCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCCViewController.h; sourceTree = "<group>"; };
-		156EA4BA1E6F07DC0049F2B8 /* PCCCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCCViewController.m; sourceTree = "<group>"; };
+		152EF07E1E6F0A4F000DF244 /* ConfigurationBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationBundle.h; sourceTree = "<group>"; };
+		152EF07F1E6F0A4F000DF244 /* ConfigurationBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationBundle.m; sourceTree = "<group>"; };
 		15BDBB1F1E6F05D600C89306 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewViewController.h; path = NewProject/NewViewController.h; sourceTree = "<group>"; };
 		15BDBB201E6F05D600C89306 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewViewController.m; path = NewProject/NewViewController.m; sourceTree = "<group>"; };
 		15EB54181E6EC80F00364CC3 /* NewProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,8 +70,8 @@
 		156EA4B81E6F07C00049F2B8 /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				156EA4B91E6F07DC0049F2B8 /* PCCCViewController.h */,
-				156EA4BA1E6F07DC0049F2B8 /* PCCCViewController.m */,
+				152EF07E1E6F0A4F000DF244 /* ConfigurationBundle.h */,
+				152EF07F1E6F0A4F000DF244 /* ConfigurationBundle.m */,
 			);
 			name = Group;
 			sourceTree = "<group>";
@@ -122,8 +122,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				15BDBB211E6F05D600C89306 /* NewViewController.h in Headers */,
-				156EA4BB1E6F07DC0049F2B8 /* PCCCViewController.h in Headers */,
 				15EB541C1E6EC80F00364CC3 /* NewProject.h in Headers */,
+				152EF0801E6F0A4F000DF244 /* ConfigurationBundle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152EF0811E6F0A4F000DF244 /* ConfigurationBundle.m in Sources */,
 				15BDBB221E6F05D600C89306 /* NewViewController.m in Sources */,
-				156EA4BC1E6F07DC0049F2B8 /* PCCCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
