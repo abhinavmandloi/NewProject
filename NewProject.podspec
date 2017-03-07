@@ -74,14 +74,4 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/abhinavmandloi/NewProject.git", :tag => s.version.to_s }
 
 
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
-
-  # s.requires_arc = true
-
-  # s.dependency "JSONKit", "~> 1.4"
-
 end
